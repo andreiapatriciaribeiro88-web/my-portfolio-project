@@ -61,6 +61,25 @@ img {
   color: white;
   border: white;
 }
+.about-page {
+  background: var(--second-color);
+  padding: 60px 20px;
+  margin: 30px;
+}
+.about-section {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 60px;
@@ -71,5 +90,9 @@ img {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 10px;
   }
 }
