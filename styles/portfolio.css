@@ -194,7 +194,7 @@ footer .social-links a:hover {
     font-size: 28px;
   }
   .project-description {
-    padding: 0;
+    padding: 20px;
     text-align: center;
   }
 }
